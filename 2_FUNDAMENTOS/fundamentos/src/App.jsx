@@ -1,6 +1,7 @@
 //importando components
 import FirstComponents from "./components/FirstComponents"
 import TemplateExpressions from "./components/TemplateExpressions"
+import Events from "./components/Events"
 
 import { useState } from 'react'
 
@@ -15,6 +16,7 @@ function App() {
       <h1>Fundamentos React</h1> {/*Passando o H1 da pagina*/}
       <FirstComponents /> {/* Adicionando oque retorna do componente que foi importado*/}
       <TemplateExpressions/> {/* Adicionando oque retorna do componente que foi importado*/}
+      <Events/>
     </div>
   );
 }
